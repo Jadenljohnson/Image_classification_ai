@@ -1,0 +1,49 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Electron build outputs
+dist/
+build/
+out/
+release/
+*.asar
+
+# Python cache & artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.pt
+*.pth
+*.h5
+
+# Model checkpoint files (optional — keep if you want to version them)
+*.ckpt
+*.pt
+*.pth
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Env & IDE settings
+.env
+.vscode/
+.idea/
+
+# Large data or training files
+animals/
+datasets/
+data/
+
+# Ignore Electron's packaged binary (prevents large file push errors)
+electron.exe
+*.exe
+
+# Temporary files
+*.tmp
+*.log
